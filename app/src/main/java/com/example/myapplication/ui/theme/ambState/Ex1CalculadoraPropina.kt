@@ -1,7 +1,5 @@
 package com.example.myapplication.ui.theme.ambState
 
-import android.text.BoringLayout
-import android.util.Property
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
