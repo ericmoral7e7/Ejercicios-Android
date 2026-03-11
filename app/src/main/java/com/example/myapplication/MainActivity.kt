@@ -4,13 +4,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.example.myapplication.ui.theme.Exercici6
+import com.example.myapplication.ui.theme.ambState.CalculadoraPropina
 
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +23,8 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 //                    Exercici1(modifier = Modifier.padding(innerPadding))
 //                    Exercici2(modifier = Modifier.padding(innerPadding))
-                    Exercici6(modifier = Modifier.padding(innerPadding))
+//                    Exercici6(modifier = Modifier.padding(innerPadding))
+                    CalculadoraPropina(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
